@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Advent+Pro:wght@200;300;400;500;600;700&display=swap');
+
+.top-head {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#logo-header a {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  text-decoration: none;
+}
+
+#logo-header p {
+  margin: 10px 0 0 0;
+  font-family: Advent Pro;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 33px;
+  line-height: 43px;
+  color: #313131;
+}
+
+nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+nav ul li {
+  list-style: none;
+  width: 200px;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li a {
+  text-decoration: none;
+  font-family: Advent Pro;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 33px;
+  color: #313131;
+}
