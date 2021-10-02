@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Advent+Pro:wght@200;300;400;500;600;700&display=swap');
 
+@import url('https://db.onlinewebfonts.com/c/0a6ee448d1bd65c56f6cf256a7c6f20a?family=Bahnschrift');
+
 .top-head {
   display: flex;
   justify-content: space-around;
@@ -15,7 +17,7 @@
 
 #logo-header p {
   margin: 10px 0 0 0;
-  font-family: Advent Pro;
+  font-family: 'Advent Pro';
   font-style: normal;
   font-weight: 600;
   font-size: 33px;
@@ -39,10 +41,55 @@ nav ul li {
 
 nav ul li a {
   text-decoration: none;
-  font-family: Advent Pro;
+  font-family: 'Advent Pro';
   font-style: normal;
   font-weight: 600;
   font-size: 28px;
   line-height: 33px;
   color: #313131;
 }
+
+.textoUP {
+  font-family: 'Advent Pro';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 75px;
+  line-height: 90px;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+}
+
+.textoDN {
+  font-family: 'Bahnschrift';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 26px;
+  line-height: 31px;
+  color: #ffffff;
+}
+
+#logo-header{
+  height: 60px;
+  width: 220px;
+}
+
+.social-header i {
+  font-size: 25px;
+}
+
+.final-header i {
+  font-size: 25px;
+}
+
+
+.final-header i:first-child {
+  margin-right: 50px;
+}
+
+.social-header {
+  display: flex;
+  justify-content: space-between;
+  width: 290px;
+}
+
